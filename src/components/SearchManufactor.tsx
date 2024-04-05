@@ -47,7 +47,7 @@ const SearchManufactor = ({
                 value={query}
                 className="search-manufactor__option text-gray-900 border-t border-gray-200 pt-2"
               >
-                Create "{query}"
+                Create &quot;{query}&quot;
               </Combobox.Option>
             ) : (
               filteredManufactors.map((item, index) => (
